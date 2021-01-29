@@ -1,4 +1,4 @@
 argument: simpleMain.c 
-	 gcc simpleMain.c -o firstProgram
+	 gcc simpleMain.c -o sort
 
 
