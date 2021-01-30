@@ -16,10 +16,8 @@ void insertion(int a[], int N){
 
 for(i=1;i<N;i++){
    value= a[i];
-   printf("value=%d\n",value);
-   for(j=i-1;j>=0 && a[j]<=value;j--) {
+   for(j=i-1;j>=0 && a[j]>=value;j--) {
      a[j+1]=a[j];
-     
      display(a,N);
    }   
   a[j+1]=value;

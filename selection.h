@@ -15,12 +15,10 @@ void selection(int a[], int N){
     int min,mi;// น้อยที่สุด
     int temp;
     
-   // min=a[0];
    for(i=0;i<N-1;i++){
-    mi=i;  //min=a[mi];
+    mi=i;
     for(j=i+1;j<N;j++){
-       if(a[mi]> a[j] ) {
-         //min=a[j];
+       if(a[mi]> a[j] ){
          mi=j;
        }
     }
