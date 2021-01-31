@@ -22,6 +22,6 @@ int main(int argc, char *argv[]){
   if(!strcmp(argv[1],"bubble")) bubble(a,N);
   else if(!strcmp(argv[1], "selection")) selection(a,N);
   else if(!strcmp(argv[1], "insertion")) insertion(a,N);
-  else printf("sorting argument error!");
+  else printf("sorting argument error!\n");
   return 0;
 }
